@@ -8,17 +8,10 @@ This project implements **Dijkstra’s Algorithm** and **Breadth-First Search (B
 Install required libraries using:  
 pip install numpy opencv-python matplotlib
 
-yaml
-Copy
-Edit
-
 ## How to Run  
 1. Run the script in Google Colab or locally using:  
 python path_planning.py
 
-markdown
-Copy
-Edit
 2. Enter **start and goal coordinates** in mm (origin at bottom-left).  
 3. Choose algorithm:  
    - `1` for Dijkstra  
@@ -33,10 +26,6 @@ Edit
 Enter start node (x y): 10 10
 Enter goal node (x y): 150 40
 Choose Algorithm (1-Dijkstra, 2-BFS): 1
-
-pgsql
-Copy
-Edit
 
 ## Notes  
 - BFS treats all moves equally, while Dijkstra finds the lowest-cost path.  
