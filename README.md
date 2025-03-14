@@ -10,15 +10,14 @@ pip install numpy opencv-python matplotlib
 
 ## How to Run  
 1. Run the script in Google Colab or locally using:  
-python path_planning.py
+python BFS_Manas_Desai.py
 
 2. Enter **start and goal coordinates** in mm (origin at bottom-left).  
-3. Choose the algorithm as BFS  
 
 ## Output  
 - **Visualization**: Node exploration + optimal path.  
 - **Output video**: `output.mp4`  
-- **Terminal output**: Total explored nodes & path cost.
+- **Terminal output**: Total explored nodes and the found path.
 
 ## Example Input  
 Enter start node (x y): 10 10
